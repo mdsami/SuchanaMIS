@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#d9d6d6"
+    tools:context="net.savethechildren.bangladesh.suchanamis.monitoring_checklist.Code102Ck2Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linear">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Code 113 Growth \u0026 Monitoirng Promotion (GMP) Monitoring Checklist"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#000000"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/suchana_checklist_heading"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="১০. বাস্তবায়নকারী সংস্থা: "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/spsessionPurbo"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/border_shadow"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="১১. সেশনের সার্বিক প্রস্তুতি বা পরিকল্পনা সম্পর্কে আপনার পর্যবেক্ষণ লিখুন: "
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/spsessionPustut"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ১২. জিএমপি সেশনে ব্যবহৃত লজিষ্টিক (পর্যাপ্ত জিএমপি কার্ড, মুয়াক টেপ, ওজন মাপার মেশিন, জিএমপি রেজিস্টার) কার্যকর ছিল কিনা, আপনার পর্যবেক্ষণ লিখুন:"
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/spsessionKusol"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="১৩. শিশুর ওজন ও মুয়াক পরিমাপ সঠিক ভাবে নেয়া  হচ্ছে কিনা, আপনার পর্যবেক্ষণ লিখুন: "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/spsessionTotho"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="১৪. প্রাপ্ত ওজন জিএমপি কার্ড ও রেজিস্টারে সঠিকভাবে লিপিবদ্ধ করা হচ্ছে কিনা, আপনার পর্যবেক্ষণ লিখুন: "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/spsessionUpo"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="১৫. শিশুর পুষ্টির অবস্থা অনুযায়ী পরামশর্  দেয়া হচ্ছে কিনা, আপনার পর্যবেক্ষণ লিখুন: "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/spsessionSoche"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="১৬. মারাত্বক/তীব্র অপুষ্ট শিশুকে সঠিক জায়গায়/স্বাস্হ্যকেন্দ্রে রেফার করা হয়েছে কিনা, পর্যবেক্ষন করুন: "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/spsessionGotom"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="১৭. সরকারী স্বাস্হ্যকর্মীদে উপস্হিতি সম্পর্কে আপনার পর্যবেক্ষণ লিখুন: "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/spsessionGan"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="১৮. সর্বোপরি সেশন পরিচালনাকারী সম্পর্কে আপনার পর্যবেক্ষণ লিখূন: "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/spsessionMao"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2/3"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/border_shadow_btn"
+
+                android:layout_marginBottom="20dp"
+                />
+
+            <Button
+                android:id="@+id/btnPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="left"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/border_shadow_btn"
+                android:gravity="center"
+                android:text="2/3" />
+
+
+            <Button
+                android:id="@+id/btnPre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="right"
+                android:layout_toLeftOf="@+id/btnPage"
+                android:layout_toStartOf="@+id/btnPage"
+                android:background="@drawable/border_shadow_btn"
+                android:gravity="center"
+                android:text="Previous" />
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="left"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/border_shadow_btn"
+                android:gravity="center"
+                android:text="Next" />
+
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+

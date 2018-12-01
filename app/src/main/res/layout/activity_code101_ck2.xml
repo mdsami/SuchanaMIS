@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#d9d6d6"
+    tools:context="net.savethechildren.bangladesh.suchanamis.monitoring_checklist.Code101Ck2Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linear">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Code 101 Suchana Mother \u0026 Child Sub-Group Courtyard Session Monitoring Checklist"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#000000"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/suchana_checklist_heading"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ক) সেশন প্রস্তুতিমূলক কাজের পর্যবেক্ষণ\u0026(পর্যবেক্ষণ এবং অংশগ্রহণকারীদের সাথে কথা বলে মূল্যায়ন
+করুন)"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#000000"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/suchana_ka"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="১২. সেশন পরিচালনাকারী কর্তৃক প্রয়োজনীয় উপকরণের জন্য পূর্ব প্রস্তুতি নেয়া: "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/q12"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="১৩. সেশন পরিচালনাকারী কর্তৃক সেশনের জায়গা যথাযথভাবে প্রস্তুতকরণ : "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/q13"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/border_shadow"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="১৪. সেশন পরিচালনাকারী কর্তৃক অংশগ্রহণকারীদের শুভেচ্ছা ও কুশল বিনিময় : "
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/q14"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="১৫. সেশন পরিচালনাকারী কর্তৃক উপস্হিত’ অংশগ্রহণকারীদের তথ্য গ্রহণ : "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/q15"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="১৬. সেশন পরিচালনাকারী কর্তৃক আলোচনার সময় সঠিক উপকরণের ব্যবহার করা : "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/q16"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="১৭. সেশন পরিচালনাকারীর সময় সর্ম্পকে সচেতনতা : "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/q17"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="১৮. সেশন পরিচালনাকারী কর্তৃক গত মাসের সেশনের পর্যালোচনা করা : "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/q18"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="১৯.  সেশন পরিচালনাকারী কর্তৃক অদ্যকার আলোচ্য বিষয়ে অংশগ্রহণকারীদের বতর্মান অভ্যাস ও জ্ঞান যাচাই করা : "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/q19"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ২০. সেশন পরিচালনাকারী কর্তৃক অংশগ্রহণকারীদের সাথে “মা ও শিশু” বিষয়ক ¯ স্হায়ীনীয় বা অন্যান্য  ভালো উদাহরন সম্পর্কে আলোচনা করা : "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/q20"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="২১. সেশন পরিচালনাকারী কর্তৃক সকলের সমান অংশগ্রহণ নিশ্চিত করা : "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/q21"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="২২. সেশন পরিচালনাকারী কর্তৃক সহজ, সকলে শুনতে পান ও সাবলীলভাবে অংশগ্রহণকারীদের সাথে  কথা বলা : "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/q22"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="২৩. সেশন রেজিস্টারটি ঠিকভাবে ব্যবহার করা : "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/q23"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="২৪. সেশন পরিচালনাকারী কর্তৃক আজকের জন্য নির্ধারিত বিষয় সম্পূর্ণ আলোচনা করা : "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/q24"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="২৫. পরবর্তী মাসের সভার তারিখ সম্পর্কে আলোচনা করা : "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/q25"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2/3"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/border_shadow_btn"
+
+                android:layout_marginBottom="20dp"
+                />
+
+            <Button
+                android:id="@+id/btnPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="left"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/border_shadow_btn"
+                android:gravity="center"
+                android:text="2/3" />
+
+
+            <Button
+                android:id="@+id/btnPre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="right"
+                android:layout_toLeftOf="@+id/btnPage"
+                android:layout_toStartOf="@+id/btnPage"
+                android:background="@drawable/border_shadow_btn"
+                android:gravity="center"
+                android:text="Previous" />
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="left"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/border_shadow_btn"
+                android:gravity="center"
+                android:text="Next" />
+
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

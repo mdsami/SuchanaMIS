@@ -1,0 +1,1738 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#d9d6d6"
+    tools:context="net.savethechildren.bangladesh.suchanamis.monitoring_checklist.Code105Ck2Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linear">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Code  105  Suchana  \u0026 Poultry/Livestock Monitoring Checklist"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#000000"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/suchana_checklist_heading"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorCell"
+                android:orientation="horizontal">
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" ১০. হ্যাঁ হলে, কখন, কত টাকা ও কি করেছেন (লিখুন) : "
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=""
+                    android:id="@+id/rtknotinahole"
+                    android:inputType="number"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="১০.১ তারিখ: (মাস/বছর) : "
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=""
+                    android:id="@+id/ettakadate"
+                    android:inputType="number"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="১০.২ কত টাকা পেয়েছেন  : "
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=""
+                    android:id="@+id/ettakasun"
+                    android:inputType="number"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/border_shadow">
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="টাকা দিয়ে কি করেছেন : "
+
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorCell"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:id = "@+id/valoDik"
+                            android:layout_width = "0dp"
+                            android:layout_weight="1"
+                            android:layout_height = "wrap_content"
+                            android:background = "@drawable/cell_shape"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:text = "১০.৩ (টিক চিহ্ন দিন) :"
+                            />
+
+                        <TextView
+                            android:id = "@+id/kharupDik"
+                            android:layout_width = "0dp"
+                            android:layout_height = "match_parent"
+                            android:layout_weight = "1"
+                            android:background = "@drawable/cell_shape"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:text = "১০.৪ কতটি (সংখ্যাটি লিখুন) :"
+                            />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <CheckBox
+                            android:id="@+id/ckb"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:background = "@drawable/cell_shape"
+                            android:layout_weight = "0.5"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:text="মুরগি/হাঁস " />
+
+                        <EditText
+                            android:id = "@+id/etmurgi"
+                            android:layout_width = "0dp"
+                            android:layout_height = "match_parent"
+                            android:layout_weight = "0.5"
+                            android:background = "@drawable/cell_shape"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:hint="সংখ্যা"
+                            android:inputType="number"
+                            />
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/ckb2"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:background = "@drawable/cell_shape"
+                            android:layout_weight = "0.5"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:text="মুরগি/হাঁসের বাচ্চা  " />
+
+                        <EditText
+                            android:id = "@+id/etmurgi2"
+                            android:layout_width = "0dp"
+                            android:layout_height = "match_parent"
+                            android:layout_weight = "0.5"
+                            android:background = "@drawable/cell_shape"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:hint="সংখ্যা"
+                            android:inputType="number"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/ckb3"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:background = "@drawable/cell_shape"
+                            android:layout_weight = "0.5"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:text="মুরগি/হাঁসের শেড " />
+
+                        <EditText
+                            android:id = "@+id/etmurgi3"
+                            android:layout_width = "0dp"
+                            android:layout_height = "match_parent"
+                            android:layout_weight = "0.5"
+                            android:background = "@drawable/cell_shape"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:hint="সংখ্যা"
+                            android:inputType="number"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/ckb4"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:background = "@drawable/cell_shape"
+                            android:layout_weight = "0.5"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:text="মুরগি/হাঁসের খাবার  " />
+
+                        <EditText
+                            android:id = "@+id/etmurgi4"
+                            android:layout_width = "0dp"
+                            android:layout_height = "match_parent"
+                            android:layout_weight = "0.5"
+                            android:background = "@drawable/cell_shape"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:inputType="numberDecimal"
+                            android:hint="টাকা"
+                            />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/ckb5"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:background = "@drawable/cell_shape"
+                            android:layout_weight = "0.5"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:text="পানির পাত্র  " />
+
+                        <EditText
+                            android:id = "@+id/etmurgi5"
+                            android:layout_width = "0dp"
+                            android:layout_height = "match_parent"
+                            android:layout_weight = "0.5"
+                            android:background = "@drawable/cell_shape"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:hint="সংখ্যা"
+                            android:inputType="number"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/ckb6"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:background = "@drawable/cell_shape"
+                            android:layout_weight = "0.5"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:text="হ্যাচিং পট/হাজল  " />
+
+                        <EditText
+                            android:id = "@+id/etmurgi6"
+                            android:layout_width = "0dp"
+                            android:layout_height = "match_parent"
+                            android:layout_weight = "0.5"
+                            android:background = "@drawable/cell_shape"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:hint="সংখ্যা"
+                            android:inputType="number"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/ckb7"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:background = "@drawable/cell_shape"
+                            android:layout_weight = "0.5"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:text="ঔষধ/টিকা " />
+
+                        <EditText
+                            android:id = "@+id/etmurgi7"
+                            android:layout_width = "0dp"
+                            android:layout_height = "match_parent"
+                            android:layout_weight = "0.5"
+                            android:background = "@drawable/cell_shape"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:hint="টাকা"
+                            android:inputType="numberDecimal"
+                            />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/ckb8"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:background = "@drawable/cell_shape"
+                            android:layout_weight = "0.5"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:text="মঅন্যান্য (মুরগি/হাঁস লালন-পালন সংক্রান্ত)" />
+
+                        <EditText
+                            android:id = "@+id/etmurgi8"
+                            android:layout_width = "0dp"
+                            android:layout_height = "match_parent"
+                            android:layout_weight = "0.5"
+                            android:background = "@drawable/cell_shape"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:hint="সংখ্যা"
+                            android:inputType="number"
+                            />
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/ckb9"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:background = "@drawable/cell_shape"
+                            android:layout_weight = "0.5"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:text="কোনটিই নয় " />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/border_shadow">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="১০.৫ যদি ‘কোনটিই নয়’ হয়, তাহলে জানুন টাকা দিয়ে কি করেছে এবং বিস্তারিত লিখুন: "
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:hint="বিস্তারিত লিখুন: "
+                    android:id="@+id/et105"
+                    android:inputType="numberDecimal"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" ১১. হ্যাঁ হলে, কখন, কত টাকা ও কি করেছেন (লিখুন)(২য় বার) : "
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="টাকা:"
+                    android:id="@+id/rtknotinahole2"
+                    android:inputType="numberDecimal"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=" কি করেছেন"
+                    android:id="@+id/rtknotinahole3"
+                    android:inputType="text"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="১১.১ তারিখ: (মাস/বছর) : "
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=""
+                    android:id="@+id/ettakadate2"
+                    android:inputType="number"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="১১.২ কত টাকা পেয়েছেন  : "
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=""
+                    android:id="@+id/ettaka11"
+                    android:inputType="numberDecimal"
+                    />
+
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/border_shadow">
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorCell"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:id = "@+id/tv113"
+                            android:layout_width = "0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height = "wrap_content"
+                            android:background = "@drawable/cell_shape"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:text = "১১.৩ (টিক চিহ্ন দিন) :"
+                            />
+
+                        <TextView
+                            android:id = "@+id/tv114"
+                            android:layout_width = "0dp"
+                            android:layout_height = "match_parent"
+                            android:layout_weight = "0.5"
+                            android:background = "@drawable/cell_shape"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:text = "১১.৪ কতটি (সংখ্যাটি লিখুন) :"
+                            />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <CheckBox
+                            android:id="@+id/ckb11"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:background = "@drawable/cell_shape"
+                            android:layout_weight = "0.5"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:text="মুরগি/হাঁস " />
+
+                        <EditText
+                            android:id = "@+id/etmurgi11"
+                            android:layout_width = "0dp"
+                            android:layout_height = "match_parent"
+                            android:layout_weight = "0.5"
+                            android:background = "@drawable/cell_shape"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:hint="সংখ্যা"
+                            android:inputType="number"
+                            />
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/ckb211"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:background = "@drawable/cell_shape"
+                            android:layout_weight = "0.5"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:text="মুরগি/হাঁসের বাচ্চা  " />
+
+                        <EditText
+                            android:id = "@+id/etmurgi211"
+                            android:layout_width = "0dp"
+                            android:layout_height = "match_parent"
+                            android:layout_weight = "0.5"
+                            android:background = "@drawable/cell_shape"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:hint="সংখ্যা"
+                            android:inputType="number"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/ckb311"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:background = "@drawable/cell_shape"
+                            android:layout_weight = "0.5"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:text="মুরগি/হাঁসের শেড " />
+
+                        <EditText
+                            android:id = "@+id/etmurgi311"
+                            android:layout_width = "0dp"
+                            android:layout_height = "match_parent"
+                            android:layout_weight = "0.5"
+                            android:background = "@drawable/cell_shape"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:hint="সংখ্যা"
+                            android:inputType="number"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/ckb411"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:background = "@drawable/cell_shape"
+                            android:layout_weight = "0.5"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:text="মুরগি/হাঁসের খাবার  " />
+
+                        <EditText
+                            android:id = "@+id/etmurgi411"
+                            android:layout_width = "0dp"
+                            android:layout_height = "match_parent"
+                            android:layout_weight = "0.5"
+                            android:background = "@drawable/cell_shape"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:hint="টাকা"
+                            />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/ckb511"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:background = "@drawable/cell_shape"
+                            android:layout_weight = "0.5"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:text="পানির পাত্র  " />
+
+                        <EditText
+                            android:id = "@+id/etmurgi511"
+                            android:layout_width = "0dp"
+                            android:layout_height = "match_parent"
+                            android:layout_weight = "0.5"
+                            android:background = "@drawable/cell_shape"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:hint="সংখ্যা"
+                            android:inputType="number"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/ckb611"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:background = "@drawable/cell_shape"
+                            android:layout_weight = "0.5"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:text="হ্যাচিং পট/হাজল  " />
+
+                        <EditText
+                            android:id = "@+id/etmurgi611"
+                            android:layout_width = "0dp"
+                            android:layout_height = "match_parent"
+                            android:layout_weight = "0.5"
+                            android:background = "@drawable/cell_shape"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:hint="সংখ্যা"
+                            android:inputType="number"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/ckb711"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:background = "@drawable/cell_shape"
+                            android:layout_weight = "0.5"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:text="ঔষধ/টিকা " />
+
+                        <EditText
+                            android:id = "@+id/etmurgi711"
+                            android:layout_width = "0dp"
+                            android:layout_height = "match_parent"
+                            android:layout_weight = "0.5"
+                            android:background = "@drawable/cell_shape"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:hint="টাকা"
+                            android:inputType="numberDecimal"
+                            />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/ckb811"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:background = "@drawable/cell_shape"
+                            android:layout_weight = "0.5"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:text="মঅন্যান্য (মুরগি/হাঁস লালন-পালন সংক্রান্ত)" />
+
+                        <EditText
+                            android:id = "@+id/etmurgi811"
+                            android:layout_width = "0dp"
+                            android:layout_height = "match_parent"
+                            android:layout_weight = "0.5"
+                            android:background = "@drawable/cell_shape"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:hint="সংখ্যা"
+                            android:inputType="number"
+                            />
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/ckb911"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:background = "@drawable/cell_shape"
+                            android:layout_weight = "0.5"
+                            android:ellipsize = "end"
+                            android:padding = "5dp"
+                            android:textSize="12sp"
+                            android:text="কোনটিই নয় " />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/border_shadow">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="১১.৫ যদি ‘কোনটিই নয়’ হয়, তাহলে জানুন টাকা দিয়ে কি করেছে এবং বিস্তারিত লিখুন: "
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:hint="বিস্তারিত লিখুন:"
+                    android:id="@+id/et115"
+                    android:inputType="numberDecimal"
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorCell"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id = "@+id/tv12"
+                    android:layout_width = "0dp"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "2"
+                    android:background = "@drawable/border_shadow"
+                    android:ellipsize = "end"
+                    android:padding = "5dp"
+                    android:textSize="12sp"
+                    android:text = " ১২. সূচনা থেকে সর্বমোট কয়টি মুরগি/হাঁস পেয়েছেন? (যদি পেয়ে থাকে, অন্যথায় ফাঁকা রাখুন):"/>
+
+
+
+                <EditText
+                    android:id = "@+id/tv12chicken"
+                    android:layout_width = "0dp"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "0.5"
+                    android:background = "@drawable/border_shadow"
+                    android:ellipsize = "end"
+                    android:padding = "5dp"
+                    android:textSize="12sp"
+                    android:hint="মুরগির সংখ্যা লিখুন-"/>
+                <EditText
+                    android:id = "@+id/tv12hen"
+                    android:layout_width = "0dp"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "0.5"
+                    android:background = "@drawable/border_shadow"
+                    android:ellipsize = "end"
+                    android:padding = "5dp"
+                    android:textSize="12sp"
+                    android:hint="হাঁসের সংখ্যা লিখুন-" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorCell"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id = "@+id/tv13"
+                    android:layout_width = "0dp"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "2"
+                    android:background = "@drawable/border_shadow"
+                    android:ellipsize = "end"
+                    android:padding = "5dp"
+                    android:textSize="12sp"
+                    android:text = "১৩. পূর্বে থেকেই নিজের কয়টি মুরগি বা হাঁস ছিল? :"/>
+
+
+
+                <EditText
+                    android:id = "@+id/tv13chicken"
+                    android:layout_width = "0dp"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "0.5"
+                    android:background = "@drawable/border_shadow"
+                    android:ellipsize = "end"
+                    android:padding = "5dp"
+                    android:textSize="12sp"
+                    android:hint="মুরগির সংখ্যা লিখুন-"/>
+                <EditText
+                    android:id = "@+id/tv13hen"
+                    android:layout_width = "0dp"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "0.5"
+                    android:background = "@drawable/border_shadow"
+                    android:ellipsize = "end"
+                    android:padding = "5dp"
+                    android:textSize="12sp"
+                    android:hint="হাঁসের সংখ্যা লিখুন-" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorCell"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id = "@+id/tv14"
+                    android:layout_width = "0dp"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "2"
+                    android:background = "@drawable/border_shadow"
+                    android:ellipsize = "end"
+                    android:padding = "5dp"
+                    android:textSize="12sp"
+                    android:text = "১৪. সূচনা থেকে পাওয়া মুরগি বা হাঁস মরেছে কিনা? :"/>
+
+
+
+                <EditText
+                    android:id = "@+id/tv14chicken"
+                    android:layout_width = "0dp"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "0.5"
+                    android:background = "@drawable/border_shadow"
+                    android:ellipsize = "end"
+                    android:padding = "5dp"
+                    android:textSize="12sp"
+                    android:hint="মুরগির সংখ্যা লিখুন-"/>
+                <EditText
+                    android:id = "@+id/tv14hen"
+                    android:layout_width = "0dp"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "0.5"
+                    android:background = "@drawable/border_shadow"
+                    android:ellipsize = "end"
+                    android:padding = "5dp"
+                    android:textSize="12sp"
+                    android:hint="হাঁসের সংখ্যা লিখুন-" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="১৫. হ্যাঁ হলে- মারা যাওয়ার কারন কি (উল্লেখ করুন)-  "
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint=""
+                    android:id="@+id/et15"
+                    android:inputType="text"
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorCell"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id = "@+id/tv16"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "2"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:text = "১৬. বর্তমানে কয়টি মুরগি বা হাঁস আছে?  "
+                />
+
+
+
+            <EditText
+                android:id = "@+id/tv16chicken"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.5"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:hint="মুরগির সংখ্যা লিখুন-"/>
+            <EditText
+                android:id = "@+id/tv16hen"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.5"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:hint="হাঁসের সংখ্যা লিখুন-" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorCell"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id = "@+id/tv17"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "2"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:text = "১৭. বর্তমানে কতটি মুরগি বা হাঁস ডিম দিচ্ছে? সংখ্যা লিখুন- "/>
+
+
+
+            <EditText
+                android:id = "@+id/tv17chicken"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.5"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:hint="মুরগির সংখ্যা লিখুন-"/>
+            <EditText
+                android:id = "@+id/tv17hen"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.5"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:hint="হাঁসের সংখ্যা লিখুন-" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorCell"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id = "@+id/tv18"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "2"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:text = "১৮. গত ১ মাসে মোট কয়টি মুরগি বা হাঁসের বাচ্চা হয়েছে? সংখ্যা লিখুন-   "
+                />
+
+
+
+            <EditText
+                android:id = "@+id/tv18chicken"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.5"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:hint="মুরগির সংখ্যা লিখুন-"/>
+            <EditText
+                android:id = "@+id/tv18hen"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.5"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:hint="হাঁসের সংখ্যা লিখুন-" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorCell"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id = "@+id/tv19"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "2"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:text = "১৯. গত ১ মাসে কয়টি ডিম পেয়েছেন? (যদি ডিম দেয়া শুরু করে থাকে) সংখ্যা লিখুন- "/>
+
+
+
+            <EditText
+                android:id = "@+id/tv19chicken"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.5"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:hint="মুরগির সংখ্যা লিখুন-"/>
+            <EditText
+                android:id = "@+id/tv19hen"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.5"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:hint="হাঁসের সংখ্যা লিখুন-" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorCell"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id = "@+id/tv20"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "2"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:text = "২০. গত ১ মাসে কয়টি ডিম পরিবারের সদস্যরা খেয়েছেন? সংখ্যা লিখুন-   "
+                />
+
+
+
+            <EditText
+                android:id = "@+id/tv20chicken"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.5"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:hint="মুরগি"/>
+            <EditText
+                android:id = "@+id/tv20hen"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.5"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:hint="হাঁস" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorCell"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id = "@+id/tv21"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "2"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:text = "২১. গত ১ মাসে কতগুলো ডিম বিক্রি করেছেন? সংখ্যা লিখুন- " />
+
+
+
+            <EditText
+                android:id = "@+id/tv21chicken"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.5"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:hint="মুরগি"/>
+            <EditText
+                android:id = "@+id/tv21hen"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.5"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:hint="হাঁস" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorCell"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id = "@+id/tv22"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "2"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:text = "২২. গত ১ মাসে বিক্রয়লব্ধ আয় কত? (যদি বিক্রি করা হয়ে থাকে) টাকায় লিখুন- ডিমঃ মুরগি/হাঁসঃ "/>
+
+
+
+            <EditText
+                android:id = "@+id/tv22chicken"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.5"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:hint="মুরগি-"/>
+            <EditText
+                android:id = "@+id/tv22hen"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.5"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:hint="হাঁস" />
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="২৩. বিক্রয়লব্ধ টাকা কি কাজে ব্যবহার করেছেন? "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint=""
+                android:id="@+id/et32"
+                android:inputType="text"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="২৪. হাঁস বা মুরগি রাতে কোথায় থাকে? (টিক চিহ্ন দিন)"
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/sp24"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="২৪.১. মন্তব্য লিখুন: "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint=""
+                android:id="@+id/et241"/>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="২৫. সব হাঁস বা মুরগিকে টিকা দেয়া হয়ে থাকলে শেষ কবে টিকা দেয়া হয়েছে? টিকা দেয়া হয়ে থাকলে কোথায় থেকে টিকা দিয়েছেন? টিকা দেয়া বাবদ কত টাকা খরচ হয়েছে? "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/sp25"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="২৫.১.টিকা দেয়া বাবদ কত টাকা খরচ হয়েছে? : "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:inputType="numberDecimal"
+                android:id="@+id/et251"/>
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="২৬. হাঁস বা মুরগি লালন-পালনে উন্নত পদ্ধতি অবলম্বন^ করা হয় কিনা? "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/sp26"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/border_shadow">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="২৭. যদি হ্যাঁ হয় তাহলে কি কি উন্নত পদ্ধতি ব্যবহার করা হয়েছে? (টিক চিহ্ন দিন): : "
+            android:textSize="14sp"
+            android:textColor="#000000"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+
+
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hajol"
+                android:id="@+id/ckb27"
+                android:onClick="onCheckboxClicked" />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Creep "
+                android:id="@+id/ckb272"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/ckb27"
+                android:layout_toEndOf="@+id/ckb27"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Improved  "
+                android:id="@+id/ckb273"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/ckb27"
+                android:layout_toEndOf="@+id/ckb27"
+                android:onClick="onCheckboxClicked"/>
+
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Poultry Shed "
+                android:id="@+id/ckb274"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/ckb27"
+                android:layout_toEndOf="@+id/ckb27"
+                android:onClick="onCheckboxClicked"/>
+
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Poultry feed "
+                android:id="@+id/ckb275"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/ckb27"
+                android:layout_toEndOf="@+id/ckb27"
+                android:onClick="onCheckboxClicked"/>
+
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vaccination "
+                android:id="@+id/ckb276"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/ckb27"
+                android:layout_toEndOf="@+id/ckb27"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medicine "
+                android:id="@+id/ckb277"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/ckb27"
+                android:layout_toEndOf="@+id/ckb27"
+                android:onClick="onCheckboxClicked"/>
+
+
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hatching chicks"
+                android:id="@+id/ckb278"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/ckb27"
+                android:layout_toEndOf="@+id/ckb27"
+                android:onClick="onCheckboxClicked"/>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2/3"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/border_shadow_btn"
+
+                android:layout_marginBottom="20dp"
+                />
+
+            <Button
+                android:id="@+id/btnPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="left"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/border_shadow_btn"
+                android:gravity="center"
+                android:text="2/3" />
+
+
+            <Button
+                android:id="@+id/btnPre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="right"
+                android:layout_toLeftOf="@+id/btnPage"
+                android:layout_toStartOf="@+id/btnPage"
+                android:background="@drawable/border_shadow_btn"
+                android:gravity="center"
+                android:text="Previous" />
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="left"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/border_shadow_btn"
+                android:gravity="center"
+                android:text="Next" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

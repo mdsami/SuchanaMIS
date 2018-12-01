@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#d9d6d6"
+    tools:context="net.savethechildren.bangladesh.suchanamis.monitoring_checklist.Code105Ck3Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linear">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Code  105  Suchana Poultry \u0026 Livestock Monitoring Checklist"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#000000"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/suchana_checklist_heading"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="পশুসম্পদ (ছাগল/ ভেড়া/অন্যান্য) (যদি উপকার ভোগী পশুসম্পদ পেয়ে থাকেন তবেই এই অংশটি র জন্য তথ্য সংগ্রহ করা হবে) (প্রযোজ্য ক্ষেত্রে লিখুন অন্যতায় ফাঁকা রাখুন)"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#000000"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorCell"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id = "@+id/tv28"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "2"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:text = " ২৮. সূচনা থেকে কয়টি পশুসম্পদ (ছাগল/ভেড়া/অন্যান্য) পেয়েছেন? (সর্বমোট) সংখ্যা লিখুন:"
+                />
+
+
+
+            <EditText
+                android:id = "@+id/tv28goats"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.5"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:hint="ছাগলের সংখ্যা লিখুন-"/>
+            <EditText
+                android:id = "@+id/tv28sheep"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.5"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:hint="ভেড়ার সংখ্যা লিখুন-" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorCell"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id = "@+id/tv29"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "2"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:text = "২৯. সূচনা থেকে পাওয়ার পূর্বে নিজের কয়টি পশুসম্পদ (ছাগল/ভেড়া/অন্যান্য) ছিল?:"
+                />
+
+
+
+            <EditText
+                android:id = "@+id/tv29goats"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.5"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:hint="ছাগলের সংখ্যা লিখুন-"/>
+            <EditText
+                android:id = "@+id/tv29sheep"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.5"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:hint="ভেড়ার সংখ্যা লিখুন-" />
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorCell"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id = "@+id/tv30"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "2"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:text = " ৩০. গত ১ বছরের মধ্যে মোট কয়টি পশুসম্পদের (ছাগল/ভেড়া/অন্যান্য) বাচ্চা হয়েছে?"
+                />
+
+
+
+            <EditText
+                android:id = "@+id/tv30goats"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.5"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:hint="ছাগলের সংখ্যা লিখুন-"/>
+            <EditText
+                android:id = "@+id/tv30sheep"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.5"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:hint="ভেড়ার সংখ্যা লিখুন-" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorCell"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id = "@+id/tv31"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "2"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:text = "৩১. সূচনা থেকে পাওয়া পশুসম্পদ মারা গেছে কিনা?"
+                />
+
+
+            <Spinner
+                android:id="@+id/sp31"
+                android:layout_width="match_parent"
+                android:layout_weight = "0.5"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:layout_height="50dp" />
+
+
+
+            <EditText
+                android:id = "@+id/tv31goats"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.5"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:hint="ছাগলের সংখ্যা লিখুন-"/>
+            <EditText
+                android:id = "@+id/tv31sheep"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.5"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:hint="ভেড়ার সংখ্যা লিখুন-" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="৩২. মারা যাওয়ার কারন কি (উল্লেখ করুন)-"
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint=""
+                android:id="@+id/et32"
+                android:inputType="text"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorCell"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id = "@+id/tv33"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "2"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:text = "৩৩. বর্তমানে মোট কয়টি পশুসম্পদ (ছাগল/ভেড়া/অন্যান্য) আছে? "
+                />
+
+
+
+            <EditText
+                android:id = "@+id/tv33goats"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.5"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:hint="ছাগলের সংখ্যা লিখুন-"/>
+            <EditText
+                android:id = "@+id/tv33sheep"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.5"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:hint="ভেড়ার সংখ্যা লিখুন-" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorCell"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id = "@+id/tv34"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "2"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:text = "৩৪. গত ১ বছরের মোট কয়টি পশুসম্পদ (ছাগল/ভেড়া/অন্যান্য) বিক্রি করেছেন?  "
+                />
+
+
+
+            <EditText
+                android:id = "@+id/tv34goats"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.5"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:hint="ছাগলের সংখ্যা লিখুন-"/>
+            <EditText
+                android:id = "@+id/tv34sheep"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "0.5"
+                android:background = "@drawable/border_shadow"
+                android:ellipsize = "end"
+                android:padding = "5dp"
+                android:textSize="12sp"
+                android:hint="ভেড়ার সংখ্যা লিখুন-" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="৩৫. বিক্রয়লব্ধ টাকা কি কাজে ব্যবহার করেছেন? : "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:id="@+id/et35"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="৩৬. পশুসম্পদ (ছাগল/ভেড়া/অন্যান্য) রাতে কোথায় থাকে? (টিক চিহ্ন দিন) পাশের খালি ঘরে কেন থাকার ঘরে বা নিজ¯ ^ ঘরে রাখছেন বি¯াÍরিত লিখুন:  "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/sp36"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="বিস্তারিত লিখুন : "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:id="@+id/et36"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="৩৬.১ পশুসম্পদ (ছাগল/ভেড়া/অন্যান্য) রাতে কোথায় থাকে? (টিক চিহ্ন দিন) পাশের খালি ঘরে কেন থাকার ঘরে বা নিজ¯ ^ ঘরে রাখছেন বি¯াÍরিত লিখুন:  "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/sp361"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="বিস্তারিত লিখুন : "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:id="@+id/et361"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="৩৭. পশুসম্পদ (ছাগল/ভেড়া/অন্যান্য) থাকার জন্য কোন ধরনের মাচার ব্যবস্হা আছে কিনা? হ্যাঁ/না যাই হোক না কেন পাশের খালি ঘরে মন্তব্য লিখুন:  "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/sp37"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="বিস্তারিত লিখুন : "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:id="@+id/et37"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="৩৮. সব পশুসম্পদ (ছাগল/ভেড়া/অন্যান্য)-কে টিকা দেয়া হয়ে থাকলে শেষ কখন টিকা দেয়া হয়েছে? (টিক চিহ্ন দিন) টিকা দেয়া হয়ে থাকলে কোথায় থেকে টিকা দিয়েছেন? টিকা দেয়া বাবদ কত টাকা খরচ হয়েছে কিনা বিস্তারিতি খালি ঘরে লিখুন: "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/sp38"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="বিস্তারিত লিখুন : "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:id="@+id/et38"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="অন্যান্য (উপকার ভেড়া মুরগি /হাঁস/পশুসম্পদ পেলেই এই অংশটি জন্য তথ্য সংগ্রহ করা হবে) (প্রযোজ্য ক্ষেত্রে লিখুন অন্যতায় ফাঁকা রাখুন) "
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#000000"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/suchana_ka"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ৩৯.হাঁস বা মুরগি বা পশুসম্পদ (ছাগল/ভেড়া/অন্যান্য) মারা গিয়েছে বা ক্ষতিগ্রস্থ হয়েছে কি? (টিক চিহ্ন দিন) হলে, কারন কি এবং কখন মারা বা ক্ষতিগ্রস্থ হয়েছে? মারা বা ক্ষতিগ্রস্থ হলে কতগুলো মারা গিয়েছে বা ক্ষতিগ্রস্থ হয়েছে:"
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/sp39"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="বিস্তারিত লিখুন : "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:hint=""
+                android:id="@+id/et39"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ৪০. গত ৩ মাসে হাঁস/মুরগি বা পশুসম্পদ (ছাগল/ভেড়া/ অন্যান্য) দিয়ে বা অন্যকোন উপায়ে আপনার পাড়া-পতিবেশীর কারো কোন ধরনের সহযোগীতা করেছেন:  "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/sp40"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="বিস্তারিত লিখুন : "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:hint=""
+                android:id="@+id/et40"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ৪১. গত ৩ মাসে হাঁস/মুরগি বা পশুসম্পদ (ছাগল/ভেড়া/ অন্যান্য) দিয়ে বা অন্যকোন উপায়ে আপনার পাড়া-পতিবেশীর কারো কোন ধরনের সহযোগীতা করেছেন:  "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/sp41"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="বিস্তারিত লিখুন : "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:hint=""
+                android:id="@+id/et41"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="৪২.উপকারভোগীর মন্তব্য: "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:id="@+id/upovogmontobbo"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="৪৩. পর্যবেক্ষণকারীর সার্বিক পর্যবেক্ষণ, মন্তব্য ও সুপারিশ (যদি থাকে): "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:id="@+id/PorjobekPoramorsho"
+                android:inputType="text"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="৪৪. পর্যবেক্ষণকারীর স্বাক্ষর ও তারিখ:  "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:id="@+id/etmotherAttendw2"
+                android:inputType="text"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="৪৫. পর্যালোচনাকারীর সুপারিশ এবং নাম ও স্বাক্ষর: "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:id="@+id/etmotherAttendf2"
+                android:inputType="text"
+                />
+
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3/3"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/border_shadow_btn"
+
+                android:layout_marginBottom="20dp"
+                />
+
+            <Button
+                android:id="@+id/btnPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="left"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/border_shadow_btn"
+                android:gravity="center"
+                android:text="3/3" />
+
+
+            <Button
+                android:id="@+id/btnPre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="right"
+                android:layout_toLeftOf="@+id/btnPage"
+                android:layout_toStartOf="@+id/btnPage"
+                android:background="@drawable/border_shadow_btn"
+                android:gravity="center"
+                android:text="Previous" />
+
+            <Button
+                android:id="@+id/btnSub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="left"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/border_shadow_btn"
+                android:gravity="center"
+                android:text="Submit" />
+
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

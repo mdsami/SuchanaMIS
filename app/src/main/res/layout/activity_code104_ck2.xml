@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#d9d6d6"
+    tools:context="net.savethechildren.bangladesh.suchanamis.monitoring_checklist.Code104Ck2Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linear">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Code  104  Suchana  \u0026 Vegetable Production Monitoring Checklist"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#000000"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/suchana_checklist_heading"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PART-2 \u0026 উৎপাদন শুরু হয়ে থাকলে (নিচের প্রশ্নের উত্তর লিখুন): "
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#000000"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/suchana_ka"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="২৩. পরিদর্শনের সময় বাগানের/সবজি উৎপাদনের অবস্হা: "
+
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorCell"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id = "@+id/fno"
+                    android:layout_width = "0dp"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "0.5"
+                    android:background = "@drawable/cell_shape"
+                    android:ellipsize = "end"
+                    android:padding = "5dp"
+                    android:textSize="12sp"
+                    android:text = "নম্বর "
+                    />
+
+                <TextView
+                    android:id = "@+id/valoDik"
+                    android:layout_width = "0dp"
+                    android:layout_height = "wrap_content"
+                    android:layout_weight = "1"
+                    android:background = "@drawable/cell_shape"
+                    android:ellipsize = "end"
+                    android:padding = "5dp"
+                    android:textSize="12sp"
+                    android:text = "২৩.১. বাগানের ভালো দিক :"
+                    />
+
+                <TextView
+                    android:id = "@+id/kharupDik"
+                    android:layout_width = "0dp"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "1"
+                    android:background = "@drawable/cell_shape"
+                    android:ellipsize = "end"
+                    android:padding = "5dp"
+                    android:textSize="12sp"
+                    android:text = "২৩.২. বাগানের খারাপ দিক:"
+                    />
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id = "@+id/one"
+                    android:layout_width = "0dp"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "0.5"
+                    android:background = "@drawable/cell_shape"
+                    android:ellipsize = "end"
+                    android:padding = "5dp"
+                    android:textSize="12sp"
+                    android:text = "1 "
+                    />
+
+                <EditText
+                    android:id = "@+id/etq28"
+                    android:layout_width = "0dp"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "2"
+                    android:background = "@drawable/cell_shape"
+                    android:ellipsize = "end"
+                    android:padding = "5dp"
+                    android:textSize="12sp"
+                    android:inputType="text"
+                    />
+
+                <EditText
+                    android:id = "@+id/etq33"
+                    android:layout_width = "0dp"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "2"
+                    android:background = "@drawable/cell_shape"
+                    android:ellipsize = "end"
+                    android:padding = "5dp"
+                    android:textSize="12sp"
+                    android:inputType="text"
+                    />
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id = "@+id/two"
+                    android:layout_width = "0dp"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "0.5"
+                    android:background = "@drawable/cell_shape"
+                    android:ellipsize = "end"
+                    android:padding = "5dp"
+                    android:textSize="12sp"
+                    android:text = "2 "
+                    />
+
+                <EditText
+                    android:id = "@+id/etq29"
+                    android:layout_width = "0dp"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "2"
+                    android:background = "@drawable/cell_shape"
+                    android:ellipsize = "end"
+                    android:padding = "5dp"
+                    android:textSize="12sp"
+                    android:inputType="text"
+                    />
+
+                <EditText
+                    android:id = "@+id/etq34"
+                    android:layout_width = "0dp"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "2"
+                    android:background = "@drawable/cell_shape"
+                    android:ellipsize = "end"
+                    android:padding = "5dp"
+                    android:textSize="12sp"
+                    android:inputType="text"
+                    />
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id = "@+id/three"
+                    android:layout_width = "0dp"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "0.5"
+                    android:background = "@drawable/cell_shape"
+                    android:ellipsize = "end"
+                    android:padding = "5dp"
+                    android:textSize="12sp"
+                    android:text = "3 "
+                    />
+
+                <EditText
+                    android:id = "@+id/etq30"
+                    android:layout_width = "0dp"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "2"
+                    android:background = "@drawable/cell_shape"
+                    android:ellipsize = "end"
+                    android:padding = "5dp"
+                    android:textSize="12sp"
+                    android:inputType="text"
+                    />
+
+                <EditText
+                    android:id = "@+id/etq35"
+                    android:layout_width = "0dp"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "2"
+                    android:background = "@drawable/cell_shape"
+                    android:ellipsize = "end"
+                    android:padding = "5dp"
+                    android:textSize="12sp"
+                    android:inputType="text"
+                    />
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id = "@+id/four"
+                    android:layout_width = "0dp"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "0.5"
+                    android:background = "@drawable/cell_shape"
+                    android:ellipsize = "end"
+                    android:padding = "5dp"
+                    android:textSize="12sp"
+                    android:text = "4 "
+                    />
+
+                <EditText
+                    android:id = "@+id/etq31"
+                    android:layout_width = "0dp"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "2"
+                    android:background = "@drawable/cell_shape"
+                    android:ellipsize = "end"
+                    android:padding = "5dp"
+                    android:textSize="12sp"
+                    android:inputType="text"
+                    />
+
+                <EditText
+                    android:id = "@+id/etq36"
+                    android:layout_width = "0dp"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "2"
+                    android:background = "@drawable/cell_shape"
+                    android:ellipsize = "end"
+                    android:padding = "5dp"
+                    android:textSize="12sp"
+                    android:inputType="text"
+                    />
+
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id = "@+id/five"
+                    android:layout_width = "0dp"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "0.5"
+                    android:background = "@drawable/cell_shape"
+                    android:ellipsize = "end"
+                    android:padding = "5dp"
+                    android:textSize="12sp"
+                    android:text = "5 "
+                    />
+
+                <EditText
+                    android:id = "@+id/etq32"
+                    android:layout_width = "0dp"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "2"
+                    android:background = "@drawable/cell_shape"
+                    android:ellipsize = "end"
+                    android:padding = "5dp"
+                    android:textSize="12sp"
+                    android:inputType="text"
+                    />
+
+                <EditText
+                    android:id = "@+id/etq37"
+                    android:layout_width = "0dp"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "2"
+                    android:background = "@drawable/cell_shape"
+                    android:ellipsize = "end"
+                    android:padding = "5dp"
+                    android:textSize="12sp"
+                    android:inputType="text"
+                    />
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="২৪. গত ১ মাসে আপনার বাগানে কি কি প্রজাতির সবজি চাষ করেছেন:"
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <CheckBox
+                    android:id="@+id/ck24"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="1= লালশাক"
+                    android:layout_weight="1"/>
+                <CheckBox
+                    android:id="@+id/ck25"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="2= লাইশাক"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <CheckBox
+                    android:id="@+id/ck26"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="3= দেশী শিম "
+                    android:layout_weight="1"/>
+                <CheckBox
+                    android:id="@+id/ck27"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="4= মিষ্টি কমড়া "
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <CheckBox
+                    android:id="@+id/ck28"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="5= লম্বা লাউ "
+                    android:layout_weight="1"/>
+                <CheckBox
+                    android:id="@+id/ck29"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="6= মূলা "
+                    android:scaleY="0.7"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <CheckBox
+                    android:id="@+id/ck30"
+                    android:layout_width="0dp"
+                    android:scaleY="0.7"
+                    android:layout_height="wrap_content"
+                    android:text="7= বেগুন "
+                    android:layout_weight="1"/>
+                <CheckBox
+                    android:id="@+id/ck31"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="8= বাধাঁকপি "
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <CheckBox
+                    android:id="@+id/ck32"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="9= ফুলকপি"
+                    android:layout_weight="1"/>
+                <CheckBox
+                    android:id="@+id/ck33"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="10= ফরাসি শিম "
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <CheckBox
+                    android:id="@+id/ck34"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="11= গাজর "
+                    android:layout_weight="1"/>
+                <CheckBox
+                    android:id="@+id/ck35"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="12= কমলী শাক "
+                    android:scaleY="0.7"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <CheckBox
+                    android:id="@+id/ck36"
+                    android:layout_width="0dp"
+                    android:scaleY="0.7"
+                    android:layout_height="wrap_content"
+                    android:text="13= ডাটা"
+                    android:layout_weight="1"/>
+                <CheckBox
+                    android:id="@+id/ck37"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="14= টমেটো "
+                    android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <CheckBox
+                    android:id="@+id/ck38"
+                    android:layout_width="0dp"
+                    android:scaleY="0.7"
+                    android:layout_height="wrap_content"
+                    android:text="15= মিষ্টি আলু "
+                    android:layout_weight="1"/>
+                <CheckBox
+                    android:id="@+id/ck39"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="16= পুঁইশাক  "
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/border_shadow"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="২৫. গত ১ মাসে খাওয়ার জন্য সবজি উত্তোলিত হয়েছে কি? (টিক চিহ্ন দিন এবং বিস্তারিত লিখুন): "
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/sp9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="২৫.১. কেজি (আনুমানিক): "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:id="@+id/etq38"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="২৫.২. বিক্রয়মুল্য (আনুমানিক): "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:id="@+id/etq39"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="২৫.৩. মন্তব্য লিখুন (যদি থাকে) : "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:id="@+id/etq40"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/border_shadow"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  ২৬.গত ১ মাসে সবজি বিক্রি করা হয়েছে কি? (টিক চিহ্ন দিন এবং বিস্তারিত লিখুন): "
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/sp10"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="২৬.১. কেজি (আনুমানিক): "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:id="@+id/etq41"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="২৬.২. বিক্রয়মুল্য (আনুমানিক): "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:id="@+id/etq42"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="২৬.৩. মন্তব্য লিখুন (যদি থাকে) : "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:id="@+id/etq43"/>
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="২৭.বিক্রয়লব্ধ টাকা কি কাজে ব্যবহার করেছেন? : "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:id="@+id/etq44"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ২৮. আপনি কি পরবর্তী মৌসুমের জন্য সবজি বীজ সংরক্ষণ করেন? যদি করেন, তাহলে কিভাবে সংরক্ষণ করেন? (টিক চিহ্ন দিন এবং বিস্তারিত লিখুন): "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/sp11"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="বিস্তারিত লিখুন : "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:id="@+id/etq45"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="২৯. পরবর্তী মৌসুমে সবজি চাষ করার জন্য ভাল বীজ কোথায় থেকে সংগ্রহ করবেন, তা কি আপনি জানেন? (টিক চিহ্ন দিন এবং বিস্তারিত লিখুন): "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/sp12"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="বিস্তারিত লিখুন : "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:id="@+id/etq46"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="৩০. গত এক মাসের মধ্যে সবজির বাগান দেখতে ও পরামর্শ দিতে কোন সূচনা কর্মী এসেছিল? যদি এসে থাকে তাহলে কি কি পরামর্শ দিয়েছে (উপকারভোগীর কাছে জানতে চান এবং লিখুন)?: "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/sp13"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="বিস্তারিত লিখুন : "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:id="@+id/etq47"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="৩১. যদি পুকুর থাকে তাহলে প্রশ্নটি করুন) আপনি কি পুকুর পাড়ে সবজি চাষ করেন? যদি না করে তার কারন কি? লিখুন?: "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/sp14"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="বিস্তারিত লিখুন : "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:id="@+id/etq48"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="৩২.উপকারভোগীর মন্তব্য: "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:id="@+id/etq49"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="৩৩. পর্যবেক্ষণকারীর সার্বিক পর্যবেক্ষণ, মন্তব্য ও সুপারিশ (যদি থাকে): "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:id="@+id/etq50"
+                android:inputType="text"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="৩৪. পর্যবেক্ষণকারীর স্বাক্ষর ও তারিখ:  "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:id="@+id/etq51"
+                android:inputType="text"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" তারিখ:  "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:id="@+id/etq52"
+                android:inputType="text"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="৩৫. পর্যালোচনাকারীর  নাম ও স্বাক্ষর: "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:id="@+id/etq53"
+                android:inputType="text"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" পর্যালোচনাকারীর সুপারিশ  "
+                android:textSize="14sp"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:id="@+id/etq54"
+                android:inputType="text"
+                />
+
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2/2"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/border_shadow_btn"
+
+                android:layout_marginBottom="20dp"
+                />
+
+            <Button
+                android:id="@+id/btnPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="left"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/border_shadow_btn"
+                android:gravity="center"
+                android:text="2/2" />
+
+
+            <Button
+                android:id="@+id/btnPre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="right"
+                android:layout_toLeftOf="@+id/btnPage"
+                android:layout_toStartOf="@+id/btnPage"
+                android:background="@drawable/border_shadow_btn"
+                android:gravity="center"
+                android:text="Previous" />
+
+            <Button
+                android:id="@+id/btnSub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="left"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/border_shadow_btn"
+                android:gravity="center"
+                android:text="Submit" />
+
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
